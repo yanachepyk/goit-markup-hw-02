@@ -1,0 +1,187 @@
+/* --колір тексту параграфів color: #757575;
+--колір заголовків color: #212121;
+-- колір при hover силок та фон кнопок при hover 2196F3
+-- колір тексу при hower  FFFFFF 
+--колір фону футера та секції 2F303A
+--колір вторичного фону секції  F5F4FA*/
+:root {
+    --text-primary: #212121;
+    --text-secondary: #757575;
+    --text-primary-white: #ffffff;
+    --text-accent: #2196F3;
+    --background-primary: #2F303A;
+    --background-secondary: #F5F4FA;
+}
+
+body {
+    color: var(--text-primary);
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+header .logo {
+    color:#000000;
+}
+
+.logo span {
+    color: var(--text-accent);
+}
+
+.site-nav a {
+    color: var(--text-primary);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.site-nav .current {
+    color: var(--text-accent);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--text-accent);
+}
+
+.contacts a {
+    color: var(--text-secondary);
+    letter-spacing: 0.02em;  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.contacts a:hover, 
+.contacts a:focus {
+    color: var(--text-accent);
+}
+
+.title {
+    color: var(--text-primary-white);
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+/* задала колір фону для того щоб було помітно текст котрий білого кольору */
+.section-title {
+    background-color: var(--background-primary);
+}
+
+.button-primary {
+    color: var(--text-primary-white);
+    background-color: var(--text-accent);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+}
+
+.section-peculiarities h3{
+    font-size: 14px;
+    line-height: 1.14; 
+}
+
+.section-peculiarities .text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.section-team {
+    background-color: var(--background-secondary);
+}
+
+.subtitle {
+font-size: 36px;
+line-height: 1.16;
+}
+
+.text {
+    color: var(--text-secondary);
+}
+
+.team-members h3,
+.team-members .text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+}
+
+.team-members .text {
+    font-weight: 400;
+}
+
+.footer {
+    background-color: var(--background-primary);
+}
+
+footer .logo {
+    color: var(--text-primary-white);
+}
+
+.address {
+    color: var(--text-primary-white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+footer .contacts a {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.nav-button button {
+    color: var(--text-primary);
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.nav-button button:hover, 
+.nav-button button:focus {
+    color: var(--text-primary-white);
+    background-color: var(--text-accent);
+
+}
+
+.projects h2 {
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
